@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante Online</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <img src="img/images (1).jfif" alt="Logo de nombre del Restaurante" class="logo">
+        <h1>Chalet Belga</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#menu">Menú</a></li>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio">
+        <div class="hero">
+            <h2>Bienvenido al Chalet Belga</h2>
+            <div class="images">
+                <img src="img/images.jpeg" alt="imagen" width="410px" height="240px">
+            </div>
+            <p>Disfruta de nuestros deliciosos platos elaborados con ingredientes frescos y de alta calidad.</p>
+        </div>
+    </section>
+
+    <section id="menu">
+        <div class="menu">
+            <h2>Nuestro Menú</h2>
+            <div class="menu-item">
+                <img src="img/images (2).jfif" alt="Descripción del plato">
+                <h3>Pollo a la Brasa</h3>
+                <p>Es es plato mas consumido en el restaurante y es el mas pedido por los clientes.</p>
+                <span class="precio">S/. 67.00</span>
+            </div>
+            <div class="menu-item">
+                <img src="img/lomo-saltado.jpg" alt="Descripción del plato">
+                <h3>Lomo Saltado</h3>
+                <p>Este plato es uno de los pocos consumidos en el restaurante.</p>
+                <span class="precio">S/. 12.00</span>
+            </div>
+            <div class="menu-item">
+                <img src="img/nuggets.jpeg" alt="Descripción del plato">
+                <h3>Nuggets de pollo con papas</h3>
+                <p>Es un plato delicioso que es preferido por muchos.</p>
+                <span class="precio">S/. 15.00</span>
+            </div>
+            <!-- Repetir para más platos -->
+        </div>
+    </section>
+
+    <section id="galeria">
+        <div class="galeria">
+            <h2>Galería de Fotos</h2>
+            <div class="foto">
+                <img src="img/pollo_a_la_brasa.jpg" alt="Descripción de la foto">
+            </div>
+            <div class="foto">
+                <img src="img/images.jfif" alt="Descripción de la foto" width="200" height="225">
+            </div>
+            <div class="foto">
+                <img src="img/fresh-salad.jpg" alt="Descripción de la foto" width="200" height="225">
+            </div>
+            <!-- Repetir para más fotos -->
+        </div>
+    </section>
+
+    <section id="contacto">
+        <div class="contacto">
+            <h2>Contacto</h2>
+            <p>Para reservas y más información, contáctanos:</p>
+            <form action="enviar.php" method="post">
+                <input type="text" name="nombre" placeholder="Tu Nombre" required>
+                <input type="email" name="email" placeholder="Tu Correo Electrónico">
+                <textarea name="mensaje" placeholder="Tu Mensaje"></textarea>
+                <button type="submit">Enviar Mensaje</button>
+            </form>
+        </div>
+        <div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3902.9947580640514!2d-76.76534712402176!3d-11.974864240568113!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105e8e42b3edcc1%3A0xda3d8a58666a740e!2sChalet%20Belga%20%22Pollos%20de%20leche%20a%20la%20brasa%22!5e0!3m2!1ses!2spe!4v1721703027201!5m2!1ses!2spe" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <footer>
+        <div class="redes-sociales">
+            <a href="https://www.facebook.com/Chaletbelga/?locale=es_LA" target="_blank"><img src="img/facebook.png" alt="Facebook">Facebook</a>
+            <a href="https://w.app/yQv1pE" target="_blank"><img src="img/whatsapp.png" alt="Whatsapp">Whatsapp</a>
+            <a href="https://www.instagram.com/chalet_belga/" target="_blank"><img src="img/instagram.png" alt="Instagram">Instagram</a>
+            <a href="https://www.tiktok.com/@chaletbelga?fbclid=IwZXh0bgNhZW0CMTAAAR0TweUvBOCCcsB70COYmmL1fid2zfnkPjqZgZdL0ixgrVUH8Rv2BQKKOP8_aem_PNMlZCSYPiHWm3uBsI1m9g" target="_blank"><img src="img/tik-tok.png" alt="Tiktok">Tiktok</a>
+            <!-- Añade más redes sociales según necesites -->
+        </div>
+        <p>&copy; 2024 <b>Eduardo Ayala Hugo</b> - Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
